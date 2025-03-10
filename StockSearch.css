@@ -1,0 +1,99 @@
+/* StockSearch.css */
+
+/* Overall Page Indentation */
+body {
+  padding: 20px; /* Indent the entire page */
+  margin: 0; /* Ensure no default margin */
+  font-family: Arial, sans-serif; /* Optional: Set a clean, professional font */
+  text-align: left; /* Align everything to the left */
+}
+
+/* Table Container */
+.stock-table-container {
+  max-height: 400px; /* Adjust the height based on your preference */
+  overflow-y: auto;  /* Allow vertical scrolling */
+  margin-top: 20px; /* Add some space on top */
+  width: 100%; /* Ensure table container takes full width */
+}
+
+/* Stock Table */
+.stock-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px; /* Add space between the form and table */
+}
+
+/* Table Headers */
+.stock-table th,
+.stock-table td {
+  padding: 12px 20px;
+  text-align: left; /* Align text to the left in the table */
+  border: 1px solid #ddd;
+}
+
+.stock-table th {
+  background-color: #3498db;
+  color: white;
+}
+
+.stock-table td {
+  background-color: #f4f6f8;
+}
+
+.stock-table tr:nth-child(even) td {
+  background-color: #ecf0f1;
+}
+
+/* Title and Container Styling */
+.stock-search-container {
+  text-align: left; /* Align content to the left */
+  padding: 30px;
+  margin: 0 auto;
+  max-width: 1200px;
+}
+
+/* Search Bar and Button Styling */
+.stock-search-form {
+  display: flex;
+  justify-content: flex-start; /* Align the search bar to the left */
+  margin-bottom: 20px;
+}
+
+.input-field {
+  padding: 10px;
+  font-size: 16px;
+  margin-right: 10px;
+  width: 250px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
+
+.search-button {
+  padding: 10px 20px;
+  font-size: 16px;
+  background-color: #3498db;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.search-button:hover {
+  background-color: #2980b9;
+}
+
+/* Error Message Styling */
+.error-message {
+  color: red;
+  font-size: 18px;
+  margin-top: 20px;
+  text-align: left; /* Align error message to the left */
+}
+
+/* Title Styling */
+.title {
+  font-size: 32px;
+  color: #333;
+  margin-bottom: 20px;
+  text-align: left; /* Align title to the left */
+}
